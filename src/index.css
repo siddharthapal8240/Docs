@@ -2,12 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-*{
-  font-family:Arial, Helvetica, sans-serif;
+* {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-::selection{
+::selection {
   color: rgb(225, 165, 14);
 }
