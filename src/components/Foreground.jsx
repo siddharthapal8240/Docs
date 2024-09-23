@@ -1,29 +1,25 @@
-import React from "react";
+import React, {useRef} from "react";
 import Card from "./card";
 
-
 const Foreground = () => {
-      
-    const ref = useRef(null);
+
+     const ref = useRef(null);
 
   const data = [
     {
-      desc: "Hiii",
-      filesize: ".9mb",
+      desc: "It's still under development",
       close: true,
-      tag: { isOpen: true, tagTitle: "Download Now", tagColor: "blue" },
+      tag: { isOpen: false, tagTitle: "Download Now", tagColor: "blue" },
     },
     {
       desc: "Hey i am siddhartha, i am a 2nd year student of jisce",
-      filesize: ".9mb",
-      close: true,
+      close: false,
       tag: { isOpen: true, tagTitle: "Download Now", tagColor: "green" },
     },
     {
-      desc: "Hiii",
-      filesize: ".9mb",
-      close: true,
-      tag: { isOpen: true, tagTitle: "Download Now", tagColor: "green" },
+      desc: "Keep your notes in cool manner.",
+      close: false,
+      tag: { isOpen: true, tagTitle: "Download Now", tagColor: "blue" },
     },
   ];
   return (
