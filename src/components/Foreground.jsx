@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import Card from "./card";
+import Card from "./Card"
 
 const Foreground = () => {
   const ref = useRef(null);
